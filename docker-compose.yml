@@ -7,5 +7,6 @@ services:
     volumes:
       - ./data:/var/lib/postgresql
     environment:
-      - POSTGRES_PASSWORD: 9mREsvXDs9Gk89Ef
-      - POSTGRES_USER: fimena
+      - POSTGRES_PASSWORD=9mREsvXDs9Gk89Ef
+      - POSTGRES_USER=fimena
+      - POSTGRES_DB=docker_compose

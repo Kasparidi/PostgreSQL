@@ -3,10 +3,10 @@ services:
   postgresql:
     image: library/postgres:12-alpine
     ports:
-      - '9999:9999'
+      - '5432:5432'
     volumes:
       - ./data:/var/lib/postgresql
     environment:
-      - POSTGRES_PASSWORD=9mREsvXDs9Gk89Ef
-      - POSTGRES_USER=fimena
-      - POSTGRES_DB=docker_compose
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_USER=app
+      - POSTGRES_DB=app

@@ -4,7 +4,7 @@
 ### TASK
 Приложение запустится и на ``GET http://localhost:9999/api/cards`` выдать JSON с картами:
 
-![img.png](img.png)
+![img.png](data/data/img.png)
 
 ### LAUNCH
 1. Запускаем контейнер ``docker compose up``
